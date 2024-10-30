@@ -3,5 +3,5 @@ fn main() {
     println!("fees is {}",fees);
 
     fees = 35_000;
-    println!("fees changed is {}",fees)
+    println!("fees changed is {}",fees);
 }
