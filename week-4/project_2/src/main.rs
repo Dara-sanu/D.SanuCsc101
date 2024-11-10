@@ -18,7 +18,7 @@ fn main() {
             incentive = 1_560_000;
         }else if age < 40 && age  >= 30 {
             incentive = 1_480_000;
-        }else if age <28 {
+        }else if age < 28 {
             incentive = 1_300_000 * 12;
         }
     } else {
