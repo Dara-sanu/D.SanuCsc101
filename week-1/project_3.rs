@@ -4,7 +4,8 @@ fn main (){
 	let t:f64 = 3.0;
 
 	// compound interest
-	let a = p*(1.0-(r/100.0)).powf(t);
+	let a = p*(1.0-(r/100.0)).powf(t);|
+	
 	println!("Amount is {}",a);
 	println!("Compound Interest is {}",a)
 }
